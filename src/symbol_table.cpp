@@ -1,9 +1,5 @@
 #include "symbol_table.hpp"
-#include <algorithm>
 #include <cstdio>
-#include <map>
-#include <unordered_map>
-#include <vector>
 
 void symbol_table::put_symbol(const std::string &identifier,
                               const std::string &regex) {
